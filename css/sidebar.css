@@ -1,0 +1,134 @@
+.right {
+    margin-left: 20px;
+
+}
+
+.sidebar {
+    padding: 20px;
+    background-color: #1D2226;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: #D9D9D9;
+}
+.sosmed {
+    padding: 20px;
+    background-color: #1D2226;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+}
+
+.sosmed img {
+    width: 50%;
+}
+
+.sosmed img:hover { 
+    transform: scale(1.05);
+
+}
+
+
+.member-lainnya {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.follow {
+    display: flex;
+}
+
+.p-1 {
+    display: flex;
+}
+
+.bungkus {
+    padding: 10px;
+}
+
+.row2 {
+display: flex;
+padding: 10px;
+
+
+}
+
+.row2:hover {
+    display: flex;
+    transform: scale(1.04);
+    box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.kiri {
+  width: 30%;
+}
+
+.kanan {
+  width: 70%;
+}
+
+.name {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: -5px;
+}
+.job {
+    font-size: 12px;
+    margin-top: -20px;
+}
+
+.follower {
+    font-size: 12px;
+    margin-top: -8px;
+    color: #D9D9D9;
+}
+
+.following img {
+    width: 30px;
+    height: 30px;
+    margin-left: -10px;
+    border-radius: 100%;
+}
+
+.icon {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.koneksi {
+    margin-left: 8px;
+    font-size: 10px;
+    margin-top: -1px;
+}
+
+.follow {
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border-color: white;
+    color: white    ;
+    background-color: transparent;
+
+}
+
+.follow a {
+    color: white;
+    text-decoration: none;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: #2A2F33;
+}
+
+#see-all {
+    text-align: center;
+}

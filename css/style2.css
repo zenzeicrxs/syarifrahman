@@ -1,0 +1,401 @@
+body{
+    background-color: #1D2226;
+    font-family: 'poppins', sans-serif;  
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    background-color: rgba(255, 255, 255, 0.1);
+    position: fixed;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    left: 0;
+    right: 0;
+    padding: 20px 100px;
+    padding-bottom: 20px;
+    backdrop-filter: blur(10px);
+    z-index: 99;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 30px;
+    font-weight: 500;
+}
+
+
+.header {
+    text-align: center;
+    background-color: #1D2226;
+    color: white;
+    padding-top: 10px;
+    margin-top: -10px;
+}
+
+.judul {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.subjudul {
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 22%;
+    margin-right: 22%;
+}
+
+#ecosystem {
+    color: #378FE9;
+}
+
+.tombol {
+    display: flex;
+  }
+
+  .get-started {
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: #1D2226;
+    background-color: #ffffff;
+    margin-right: 20px;
+  }
+
+  .team {
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border-color: #ffffff;
+    color: #ffffff;
+    background-color: transparent;
+    margin-right: 10px;
+  }
+
+#cto {
+    justify-content: center;
+}
+
+.header img  {
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.section1 {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 4%;
+    background-color: #22282d;
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+    backdrop-filter: blur(60px);
+
+}
+
+.section2 {
+
+    margin-top: 4%;
+    background-color: #1D2226;
+    color: #1D2226;
+    padding: 40px 200px;
+    border-radius: 12px;
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#title {
+    color: #378FE9;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+
+#judul-card {
+    width: 50%;
+    margin-right: 20px;
+}
+
+#desk-card {
+    width: 50%;
+}
+
+.kotak-1 img {
+    width: 50px;
+    padding: 30px;
+    background-color: #FFF5DA;
+    border-radius: 12px;
+}
+
+.kotak-2 img {
+    width: 50px;
+    padding: 30px;
+    background-color: #E3F9EC;
+    border-radius: 12px;
+}
+
+.kotak-3 img {
+    width: 50px;
+    padding: 30px;
+    background-color: #FFECDB;
+    border-radius: 12px;
+}
+
+.card1 {
+    background-color: #FFD2BC;
+    border-radius: 12px;
+    padding: 30px 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 20%; 
+    font-size: 14px;
+}
+
+.card2 {
+    background-color: #DDF6D1;
+    border-radius: 12px;
+    padding: 30px 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;   
+    width: 20%; 
+    font-size: 14px;
+}
+
+.card3 {
+    background-color: #FFD6B8;
+    border-radius: 12px;
+    padding: 30px 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;  
+    width: 20%; 
+    font-size: 14px;
+ }
+
+ .card1 a, .card2 a, .card3 a {
+    text-decoration: none;
+    text-decoration: none;
+    color: #1D2226;
+    font-weight: 600;
+    
+
+ }
+
+ .card2:hover, .card1:hover, .card3:hover {
+    background-color: #ffffff;
+    border-radius: 12px;    
+    padding: 30px 30px;
+    color: #1D2226;
+
+    margin-bottom: 30px;
+    margin-top: 30px;  
+    width: 20%; 
+    font-size: 14px;
+    transform: scale(1.02);
+    box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,0.1);
+ } 
+
+
+/* CARD slide */
+
+.section3{
+    padding-bottom: 100px;
+    overflow-x: hidden;
+	user-select: none;
+	mask-image: linear-gradient(
+		to right,
+		hsl(0 0% 0% / 0),
+		hsl(0 0% 0% / 1) 20%,
+		hsl(0 0% 0% / 1) 80%,
+		hsl(0 0% 0% / 0)
+	);
+}
+
+@keyframes loop {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(-100%);
+	}
+}
+
+.slidecard{
+	display: flex;
+	gap: 1rem;
+	min-width: 100%;
+	animation: loop 100s linear infinite;
+}
+
+.readmore {
+    margin-top: 5rem;
+    text-align: end;
+    margin-left: 6%;
+    margin-right: 7%
+    
+}
+
+.readmore a {
+    color: #b6b6b6 !important;
+    text-decoration: none;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 1%;
+
+}
+
+.card-member {
+    background-color: rgb(195, 101, 101);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0px solid rgb(255, 255, 255);
+    padding: 20px;
+    margin: 20px;
+    height: 300px;
+    width: 200px;
+    text-decoration: none;
+    font-size: 10px;
+    border-radius: 1%;
+    text-align: center;  
+}
+
+.card-member:hover {
+    background-color: rgb(195, 101, 101);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0px solid rgb(255, 255, 255);
+    padding: 20px;
+    margin: 20px;
+    height: 300px;
+    width: 200px;
+    text-decoration: none;
+    font-size: 10px;
+    border-radius: 1%;
+    text-align: center;
+    transform: scale(1.04);
+    box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,0.1);
+    
+}
+
+.info {
+    margin-top: 120%;
+    color: aliceblue;
+}
+
+.p2 {
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+.flex01 {
+    display: flex;
+
+}
+
+.coconut013{
+    padding: 80px 200px;
+    margin: auto;
+}
+
+.coconut013 img {
+    width: 40%;
+    padding-right: 60px;
+    margin: auto;
+}
+
+.section5{
+    padding: 40px 130px;
+}
+
+.blogpost {
+    text-decoration: none;
+    padding: 0px 40px;
+    display: flex;
+}
+
+.blog {
+    text-decoration: none;
+    margin: 30px 30px;
+}
+
+.blog a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.blog img {
+    width: 100%;
+
+}
+
+footer {
+    background-color: #15191b;
+    padding: 20px 200px;
+    padding-top: 50px;
+}
+
+.bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #15191b;
+}
+
+.bar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    font-size: 17px;
+ }
+
+ .copyright {
+    padding-top: 20px;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.181);
+ }
+
+ .heading {
+    text-align: center;
+    padding: 20px;
+ }
+
+ .container {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 4%;
+    color: white;
+    padding: 30px;
+    line-height: 30px;
+ }
+
+ .container ul li {
+    list-style-type: none;
+    margin-bottom: 20px;
+
+ }
+
+ .tomboll {
+    padding: 20px 300px;
+    margin-bottom: 20px;
+    
+ }
+
+ .center {
+    
+ }
