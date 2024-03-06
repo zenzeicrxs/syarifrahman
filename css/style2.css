@@ -399,3 +399,7 @@ footer {
  .center {
     
  }
+
+ html {
+    scroll-behavior: smooth;
+  }
